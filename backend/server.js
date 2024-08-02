@@ -88,7 +88,7 @@ const {calenderRouter} = require("./route/calender.route")
 const {connection}=require('./db')
 const {userRouter}=require("./route/user.route")
 const socketio = require('socket.io');
-// const PORT = process.env.PORT || 3000;
+// const PORT = process.env.PORT || 3000; 
 
 const app = express();
 app.use(express.json())
