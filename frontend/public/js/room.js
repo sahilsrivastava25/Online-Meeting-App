@@ -1032,6 +1032,7 @@ const userImageinPart = localStorage.getItem("userImage")
 socket.on("update-avtar",(userImageinPart)=>{
     img.src=userImageinPart;
 })
+
 //avtar
 // socket.emit('update avatar', localStorage.getItem("userImage"));
 
