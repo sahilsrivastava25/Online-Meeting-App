@@ -10,12 +10,12 @@ let camAllowed = 1;
 
 let mediaConstraints = { video: true, audio: true };
 
-navigator.mediaDevices.getUserMedia(mediaConstraints)
+navigator.mediaDevices.getUserMedia(mediaConstraints) // To access camera and audio of any user/system
     .then(localstream => {
-        videoCont.srcObject = localstream;
-    })
+        videoCont.srcObject = localstream; // rectangle box on landing
+    }) 
 
-function uuidv4() {
+function uuidv4() { // 16 digit random number
     return 'xxyxyxxyx'.replace(/[xy]/g, function (c) {
         var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
         return v.toString(16);
