@@ -1,7 +1,7 @@
 # GatherHub
 
 ## Introduction
-GatherHub is a video chat application designed for seamless online communication, offering features similar to Zoom. It allows users to connect, collaborate, and communicate in real-time through video calls, chat messages, and more.
+GatherHub is a video chat application designed for a seamless online communication, offering features similar to Zoom. It allows users to connect, collaborate, and communicate in real-time through video calls, chat messages, and more.
 
 ## Table of Contents
 - [Deployed App](#deployed-app)
